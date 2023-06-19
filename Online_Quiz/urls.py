@@ -9,4 +9,3 @@ urlpatterns = [
     path('api/v1/auth/', include("api.v1.auth.urls")),
     path('api/v1/handlefetch/', views.handlefetch, name="handlefetch"),
 ]
-# helloworld
